@@ -1,0 +1,247 @@
+html {
+    font-size: 62.5%
+}
+
+header {
+    background: #bab9b9;
+}
+
+
+
+#History{
+    max-width: 960px;
+    margin: auto;
+    padding-top:10px;
+}
+
+
+.mannaka{
+    text-align: center;
+}
+
+#cover_area {
+    text-align: center;
+    padding: 80px 0;
+    background-image: url("../images/top/cover.jpg");
+    background-size: cover
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+    #cover_area {
+        background-image:url("../images/top2.jpg")
+    }
+}
+
+
+@media (min-width: 550px) {
+    #cover_area {
+        text-align:left;
+        height: 420px;
+        padding: 0
+    }
+
+    #cover_area img {
+        margin-top: 180px;
+        margin-left: 70px
+    }
+}
+
+#service_area {
+    padding-top: 20px
+}
+
+@media (min-width: 550px) {
+    #service_area {
+        padding-top:30px
+    }
+}
+
+#service_area .columns {
+    color: #626262
+}
+
+#service_area .columns .service_title {
+    font-size: 18px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 8px
+}
+
+#service_area .columns p {
+    font-size: 15px;
+    font-size: 1.5rem;
+    margin-top: 10px
+}
+
+@media (min-width: 550px) {
+    #service_area .columns .service_title {
+        font-size:16px;
+        font-size: 1.6rem
+    }
+
+    #service_area .columns p {
+        font-size: 13px;
+        font-size: 1.3rem
+    }
+}
+
+#news_area {
+    background-color: #eaf2f4
+}
+
+@media (min-width: 550px) {
+    #news_area .container {
+        padding:0px 10% 50px 10%
+    }
+}
+
+#news_area .news_title {
+    text-align: center;
+    font-size: 26px;
+    font-size: 2.6rem;
+    color: #42b9d0;
+    padding: 15px 0 10px 0;
+    font-weight: bold;
+    letter-spacing: 0.2rem
+}
+
+#news_area .news_lists li {
+    list-style: none;
+    font-size: 15px;
+    font-size: 1.5rem
+}
+
+#news_area .news_lists li span {
+    color: #42b9d0;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px
+}
+
+@media (min-width: 550px) {
+    #news_area .news_title {
+        text-align:center;
+        font-size: 22px;
+        font-size: 2.2rem;
+        color: #42b9d0;
+        padding: 50px 0 41px 0;
+        letter-spacing: 0.2rem
+    }
+
+    #news_area .news_lists li {
+        list-style: none;
+        font-size: 14px;
+        font-size: 1.4rem;
+        margin-bottom: 20px
+    }
+
+    #news_area .news_lists li span {
+        color: #42b9d0;
+        font-weight: bold;
+        display: inline;
+        margin-bottom: 0px
+    }
+}
+
+footer {
+    background-color: #bab9b9;
+    color: #fff;
+    padding-top: 20px
+}
+
+@media (max-width: 550px) {
+    footer .container {
+        padding:0
+    }
+
+    footer .sp {
+        text-align: center;
+        margin: 0 auto
+    }
+
+    footer .foot_navi {
+        margin-top: 20px
+    }
+
+    footer .foot_navi li {
+        list-style: none;
+        margin-bottom: 1px
+    }
+
+    footer .foot_navi li a {
+        color: #42b9d0;
+        background-color: #eaf2f4;
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 16px;
+        font-size: 1.6rem;
+        padding: 16px 0
+    }
+}
+
+footer .foot_address {
+    font-size: 16px;
+    font-size: 1.6rem;
+    padding-top: 10px
+}
+
+footer .copy {
+    text-align: center;
+    font-size: 11px;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+@media (min-width: 550px) {
+    footer {
+        padding-top:30px
+    }
+
+    footer .foot_address {
+        padding: 0px;
+        font-size: 12px;
+        font-size: 1.2rem
+    }
+
+    footer .foot_navi {
+        float: right
+    }
+
+    footer .foot_navi li {
+        list-style: none;
+        background-repeat: no-repeat;
+        background-position: left center;
+        display: inline-block;
+        float: left;
+        margin-right: 10px;
+        font-size: 11px;
+        font-size: 1.1rem;
+        background-image: url("../images/top/foot_arroehead.png");
+        background-size: 4px 6px
+    }
+}
+
+@media screen and (min-width: 550px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 550px) and (min-resolution: 2dppx) {
+    footer .foot_navi li {
+        background-image:url("../images/top/foot_arroehead@2x.png")
+    }
+}
+
+@media (min-width: 550px) {
+    footer .foot_navi a {
+        color:white;
+        padding-left: 10px;
+        text-decoration: none
+    }
+
+    footer .foot_navi a:hover {
+        color: #eaf2f4
+    }
+
+    footer .copy {
+        margin-top: 30px
+    }
+}
+
